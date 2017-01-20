@@ -1,0 +1,176 @@
+hr {
+	margin: 8px 0px;
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: Myriad Pro;
+}
+
+.loading {
+	float: center;
+	color: black;
+	background-color: white;
+	margin: 16px;
+	padding: 16px;
+	text-align: center;
+	border-radius: 1px;
+}
+
+.film, .book {
+	display: none;
+}
+
+.filmVisible {
+	position: fixed;
+    bottom: 0;
+	right: 0;
+	left: 0;
+	position: bottom;
+	display: flex;
+	background-color: #EEEEEE;
+	padding: 10px;
+	opacity: 0.95;
+	align-items: center;
+}
+
+.bookVisible {
+	display: inline-block;
+	background-color: #EEEEEE;
+	padding: 12px;
+	opacity: 0.95;
+	border-radius: 5px;
+	overflow-y: auto;
+	max-width: 100%;
+}
+
+#book-top {
+	display: flex;
+	align-items: center;
+	padding: 0px 3px; 
+}
+
+#book-cover {
+	width: 25%;
+	margin-right: 10px;
+}
+
+#book-filmTitle {
+	font-weight: bolder;
+	margin: 0px 0px 5px 0px;
+	vertical-align: top;
+	font-size: 17px;
+}
+
+#book-close {
+	margin: 0px -9px 0px 0px;
+	border: none;
+	background: #EEEEEE; 
+	float: right;
+	display: inline-block;
+}
+
+.book-time {
+	display: inline-block;
+	background-color: #424242;
+	color: white;
+	padding: 0px 3px;
+	margin: 3px 6px 3px 0px;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+#book-filmData {
+	display: inline-block;
+	margin: 4px 0px 0px 0px;
+}
+
+#book-filmCountry {
+	display: inline-block;
+	margin: 0px;
+}
+
+#trailer {
+	margin: 0px 1px 0px 3px;
+	display: inline-flex;
+	align-items: center;
+	background: #E53935;
+	color: white;
+	padding: 4px;
+	font-size: 14px;
+	border: none;
+	border-radius: 3px;
+}
+
+#ticket {
+	margin: 0px 1px 0px 3px;
+	display: inline-flex;
+	align-items: center;
+	background: #424242;
+	color: white;
+	padding: 4px;
+	font-size: 14px;
+	border: none;
+	border-radius: 3px;
+}
+
+.icon {
+	margin: 0px 4px 0px 0px;
+	width: 18px;
+	vertical-align: middle;
+}
+
+.close-icon {
+	margin: 0px;
+	width: 14px;
+}
+
+h3 {
+	margin: 0px 3px;
+}
+
+#book-filmSynopsis {
+	margin: 4px 3px 0px 3px;
+	/*text-align: justify;*/
+}
+
+#summary {
+	margin: 0px 0px 0px 10px;
+}
+
+#cover {
+	height: auto;
+	width: 20%;
+}
+
+#filmTitle {
+	font-weight: bolder;
+	margin: 0px 0px 7px 0px;
+	vertical-align: top;
+	font-size: 17px;
+}
+
+#filmTime {
+	margin: 0px;
+	vertical-align: top;
+}
+
+#ver-detalle {
+	background: none;
+	border: none;
+	padding: 0px;
+	text-align: left;
+	color: #1E88E5;
+	margin-top: 7px;
+	font-size: 15px;
+}
+
+.time {
+	display: inline;
+	background-color: #424242;
+	color: white;
+	padding: 0px 3px;
+	margin-right: 8px;
+	border-radius: 3px;
+}

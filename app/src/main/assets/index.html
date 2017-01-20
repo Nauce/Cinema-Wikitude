@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="css/estilos.css" media="screen">
+	<title>Cinema</title>
+	<script src="architect://architect.js"></script>
+	<script type="text/javascript" src="js/ade.js"></script>	
+</head>
+
+<body>
+	
+	<div id="book" class="book">
+		<button id="book-close" onclick="closeBook()"><img class="close-icon" src="assets/close-icon.png"></img></button>
+		<div id="book-top">
+			<img id="book-cover"></img>
+			<div id="book-info">
+				<p id="book-filmTitle"></p>
+				<div id="book-filmTime"></div>
+				<p id="book-filmData"></p>
+				<p id="book-filmCountry"></p>
+			</div>
+		</div>
+		<hr>
+		<button id="trailer" onClick="trailer()"><img class="icon" src="assets/play-icon.png"></img>Ver trailer</button>
+		<button id="ticket" onclick="buyTickets()"><img class="icon" src="assets/ticket-icon.png"></img>Comprar entradas</button>
+		<hr>
+		<h3>Sinopsis</h3>
+		<p id="book-filmSynopsis"></p>
+	</div>
+
+	<div id="film" class="film" >
+		<img id="cover"></img>
+		<div id="summary">
+			<p id="filmTitle"></p>
+			<div id="filmTime"></div>
+			<button id="ver-detalle" onclick="book()">Ver detalle</button>
+		</div>
+	</div>
+	
+	<div id="loadingMessage" class="loading">Cargando...</div>
+	<script src="js/world.js"></script>
+</body>
+</html>
