@@ -5,12 +5,4 @@ Proyecto para Realidad y Accesibilidad Aumentada - Universidad de Oviedo
 
 ## Capturas
 
-![alt tag](/screens/1.jpg)
-
-![alt tag](/screens/2.jpg)
-
-![alt tag](/screens/3.jpg)
-
-![alt tag](/screens/4.jpg)
-
-![alt tag](/screens/5.jpg)
+<img src="/screens/1.jpg" width="300"> <img src="/screens/2.jpg" width="300"> <img src="/screens/3.jpg" width="300"> <img src="/screens/4.jpg" width="300"> <img src="/screens/5.jpg" width="300">
